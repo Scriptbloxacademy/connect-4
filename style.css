@@ -1,0 +1,35 @@
+body{
+font-family:Arial,sans-serif;
+background:#111;
+color:white;
+text-align:center;
+}
+
+#board{
+display:grid;
+grid-template-columns:repeat(7,60px);
+gap:6px;
+justify-content:center;
+margin:20px auto;
+}
+
+.cell{
+width:60px;
+height:60px;
+border-radius:50%;
+background:#444;
+cursor:pointer;
+}
+
+.red{
+background:red;
+}
+
+.yellow{
+background:gold;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+}
